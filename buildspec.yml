@@ -10,5 +10,5 @@ post_build:
   - echo Build completed successfully
 artifacts: 
 files:
-  - target/consumerMicroservice.jar
+  - '**/*'
 discard-paths: yes
